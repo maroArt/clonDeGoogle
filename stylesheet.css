@@ -1,11 +1,25 @@
 * {
     font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
 .icon-buscador {
     display: inline-block;
     width: 24px;
     height: 24px;
+    outline: none;
+    border: none;
+}
+
+#input-buscador {
+    outline: none;
+    border: none;
+    box-shadow:gainsboro;
 }
 
 ul {
@@ -13,13 +27,23 @@ ul {
 }
 
 header {
-    text-align: end;
-    justify-content: center;
+    text-align: right;
+    height: 8vh;
 }
 
 main {
-    margin: 375px;
-    text-align: center
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+
+footer {
+    height: auto;
 }
 
 .pais {
@@ -45,11 +69,11 @@ header ul li {
 
 footer ul {
     display: inline-block;
-    margin: 15px 12px;
+    
 }
 
 footer ul li {
-    display: inline;
+    display: inline-block;
     /* padding: 8px; */
     /* padding: 8px 24px; */
     /* padding: 8px 24px 40px 60px; */
@@ -57,9 +81,10 @@ footer ul li {
 }
 
 footer {
-    
-    background-color:rgb(201, 201, 201) ;
+
+    background-color: rgb(201, 201, 201);
 }
+
 /*
 main{
     height: ;
