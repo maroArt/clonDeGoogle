@@ -16,26 +16,41 @@ body {
     border: none;
 }
 
+
 #input-buscador {
-    outline: none;
-    border: none;
-    box-shadow:gainsboro;
+    border: 0px;
+	width: 240px;
+	position: relative;
+	background: transparent;
+	outline: none;
+	bottom: 4px;
+	padding: 2px
 }
+
 
 ul {
     list-style-type: none;
 }
 
+
 header {
     text-align: right;
     height: 8vh;
+    vertical-align: middle;
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    vertical-align: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 70vh;
+    height: 77vh;
     align-content: center;
     justify-content: center;
     align-items: baseline;
@@ -43,11 +58,11 @@ main {
 }
 
 footer {
-    height: auto;
+    height: 100%;
 }
 
-.pais {
-    text-align: left;
+.btn-buscador{
+    border: black solid 1px;
 }
 
 
@@ -68,22 +83,35 @@ header ul li {
 }
 
 footer ul {
-    display: inline-block;
-    
+    display: flex;
+    padding: 3px;
+}
+
+.perfil {
+    border-radius: 50%;
 }
 
 footer ul li {
-    display: inline-block;
+    display: flex;
     /* padding: 8px; */
     /* padding: 8px 24px; */
     /* padding: 8px 24px 40px 60px; */
-    padding: 15px;
+    padding: 8px;
+    margin: 0px;
 }
 
 footer {
-
     background-color: rgb(201, 201, 201);
 }
+
+#politicas {
+    justify-content: right;
+}
+
+.pais {
+    text-align: left;
+}
+
 
 /*
 main{
