@@ -13,20 +13,10 @@ El proposioto de la creación de este clon de google se el practicar y desarrola
 
 
 ## Intro 
-Bienvenido a mi portafolio, en este proyecto nos centramos en la elaboración de un portafolio atractivo que permitirá conocer un poco sobre las habilidades que tengo actualmente, las secciones principales se pueden dividir en 3: Sobre mí, proyectos y contacto. 
+En este proyecto nos centramos en la realización más que nada a manera de práctica de un "clon de Google" esto con la finalidad de comprender mejor elementos de CSS y HTML.  
 
 ### Secciones (Captura de pantalla)
-Sobre mi
-
 ![Alt text](assets/image.png)
-![Alt text](assets/imAgen.png)
-
-Proyectos
-![Alt text](assets/image-1.png)
-![Alt text](assets/image-2.png)
-
-Contacto y footer con redes sociales. 
-![Alt text](assets/image-3.png)
 
 ### Tecnologias 
  - CSS
@@ -34,10 +24,10 @@ Contacto y footer con redes sociales.
  - JS 
 
 ## ¿Que construimos?
-Con aún página principalmente de HTML con ayuda de bootstrap, para generar un estilo visual sencillo y con animaciones o funciones interactivas que llamen la atención de los usuarios, además de ser una página responsiva casi al 100%
+Con aún página principalmente de HTML y CSS, basándonos en la estructura de la página de buscador de Google, tomamos como base ciertos aspectos y con ello construimos una versión similar a dicha página, al ser uno de los primeros proyectos desarrollados, hay ciertas funciones o detalles que aún hay por corregir. 
 
 ## Objetivos de aprendizaje
-Obtener un manejo entre basico a medio de las tecnologias utilizadas ademas de el uso de bootstrap. 
+Obtener un manejo entre basico a medio de las tecnologias utilizadas. 
 
 ## Contacto 
 Si estas interesado en compartir o concectar para algun proyecto u oportunidad laborar, contactame. 
